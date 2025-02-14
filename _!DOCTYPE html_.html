@@ -15,6 +15,7 @@
         height: 100%;
         color: white;
         font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
        }
        .Calculadora{
         position: absolute;
@@ -30,6 +31,21 @@
         width: 50px;
         height: 50px;
         font-size: 25px;
+        cursor: pointer;
+        margin: 3px ;
+        background: rgb(red, green, blue);
+        border: none;
+        color: white;
+       }
+       .Botao:hover{
+        background-color: black;
+        
+       }
+       #Resultado{
+        background-color: white;
+        width:207px ;
+        height: 30px;
+        margin: 5px;
        }
 
 
@@ -41,7 +57,7 @@
         <h1>Francisco Keppe</h1>
         <div class="Calculadora">
             <h1>Calculadora</h1>
-            <p id="resultado"></p>
+            <p id="resultado">fdgdf</p>
             <table>
                 <tr>
                     <td><button class="Botao">C</button></td>
@@ -65,10 +81,10 @@
                     <td><button>1</button></td>
                     <td><button>2</button></td>
                     <td><button>3</button></td>
-                    <td><button>=</button></td>
+                    <td rowspan="2"><button class="Botao" style="height: 106px;">=</button></td>
                 </tr>
                <tr>
-                    <td><button>0</button></td>
+                    <td colspan="2"><button class="Botao" style="width: 106px;">0</button></td>
                     <td><button>.</button></td>
                 </tr>
             </table>
@@ -76,3 +92,4 @@
     </div>
  </body>
 </html>
+##minuto 22 15
